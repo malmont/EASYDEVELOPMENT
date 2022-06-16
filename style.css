@@ -8,10 +8,21 @@ body {
     background: #f1f1f1;
 }
 
+/* Nav */
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+#navbarCollapse a {
+    font-size: 20px;
+}
+
+/* header */
 header {
     background: url('images/19787.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+
     height: 110vh;
 }
 
@@ -31,4 +42,8 @@ h1 {
     color: black;
     font-family: sans-serif;
     font-weight: 700;
+}
+
+#info {
+    background-color: white;
 }
