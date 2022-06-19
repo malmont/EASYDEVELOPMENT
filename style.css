@@ -56,3 +56,20 @@ h1 {
     border-top: 1px solid #000;
 
 }
+
+/* Call to action */
+
+#start {
+    position: relative;
+    min-height: 200px;
+    background: url('images/start.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+#start h2 {
+    font-size: 40px;
+    color: #f1f1f1;
+}
