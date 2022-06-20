@@ -20,10 +20,9 @@ body {
 
 /* header */
 header {
-    background: url('images/19787.jpg');
+    background: url('images/header.jpeg');
     background-size: cover;
-
-    height: 110vh;
+    height: 80vh;
 }
 
 .text-intro {
@@ -38,7 +37,7 @@ header {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 7vw;
     color: black;
     font-family: sans-serif;
     font-weight: 700;
@@ -84,4 +83,51 @@ h1 {
 .fab {
     font-size: 25px;
     color: #003366;
+}
+
+/* Médias Queries */
+
+@media screen and (max-width: 768px) {
+
+    header {
+        height: 60vh;
+    }
+
+    .text-intro {
+        padding-top: 200px;
+    }
+
+    .preTxt {
+        font-size: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .preTxt {
+        font-size: 20px;
+    }
+
+
+
+    .text-intro a {
+        transform: scale(0.8);
+    }
+
+    #homes-icons {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    #txtLaptop {
+        padding-bottom: 30px;
+    }
+
+    #clients {
+        padding-bottom: 35px;
+    }
+
+
 }
