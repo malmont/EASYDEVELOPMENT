@@ -19,8 +19,17 @@ body {
 }
 
 /* header */
-header {
+#header1 {
     background: url('images/header.jpeg');
+    background-size: cover;
+    height: 80vh;
+}
+#frechTech{
+    border-top: 1px solid #000;
+}
+
+#header2 {
+    background: url('images/tech.jpeg');
     background-size: cover;
     height: 80vh;
 }
