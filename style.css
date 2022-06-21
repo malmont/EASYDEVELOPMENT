@@ -12,6 +12,7 @@ body {
 
 .navbar-brand {
     font-size: 25px;
+    font-family: 'Kaushan Script';
 }
 
 #navbarCollapse a {
@@ -24,7 +25,8 @@ body {
     background-size: cover;
     height: 80vh;
 }
-#frenchTech{
+
+#frenchTech {
     border-top: 1px solid #000;
 }
 
